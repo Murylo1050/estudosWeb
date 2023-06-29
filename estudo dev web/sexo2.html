@@ -5,12 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sexo 2</title>
     <link rel="shortcut icon " href="imagens/favicon.ico">
+    <style>
+
+      
+
+    </style>
 </head>
 <body>
 
     <h1>Pega nois ai na pagina dois fi</h1>
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CSllZ6ImqoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
     <p>Se tu quiser voltar pra pagina sexo 1 <a href="index.html" rel="prev">clica aqui</a></p>
     
+    <div id="imag"  style="width: 100px; height: fit-content; background-color: green;"><img id="imagem" src="imagens/tionatahn.png" alt="" style="width: 100%;"></div>
+
+    <script>
+        var a = document.getElementById('imag')
+        var imagem = document.getElementById('imagem')
+
+        a.addEventListener('mouseenter',passou)
+        a.addEventListener('mouseout',saiu)
+
+        function passou(){
+            imagem.src = 'imagens/1005141.png'
+
+            
+            //a.innerHTML = `<img src="imagens/1005141.png" style="width: 100%;">`
+
+            a.style.background = "lightblue"
+
+        }
+        function saiu(){
+            imagem.src = 'imagens/tionatahn.png'
+            //a.innerHTML = `<img src="imagens/tionatahn.png" style="width: 100%;">`
+            a.style.background = "green"
+        }
+        
+
+
+    </script>
+
 </body>
 </html>
